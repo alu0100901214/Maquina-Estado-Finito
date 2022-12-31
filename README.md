@@ -48,7 +48,7 @@ Actualizamos todos los estados para que cuando el robot tenga 4 o menos de vida,
 
 -> GIF de ejemplo de Hide:
 
-![gif](./GIF/hide.gif)
+![gif](./GIF/hide2.gif)
 
 -> Diagrama de los estados Patrol, Chase, Attack y Hide:
 
