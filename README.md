@@ -11,15 +11,18 @@ En OnStateUpdate(), compruebo la distancia del agente hasta el punto seleccionad
 Aparte calculo una distancia y un ángulo respecto al jugador, en caso de que se cumpla una visión de distancia y de ángulo mínima, cambio al estado Chase.
 
 -> GIF de ejemplo de Patrol:
+
 ![gif](./GIF/patrol.gif)
 
 ## Chase: implementa "Seek" o "Pursue" para seguir al jugador. Si el jugador está dentro de la distancia de tiro pasa al estado "Attack". Si el jugador deja de estar en el campo de visión, pasa al estado "Patrol".
 
 Añadimos un estado Chase con el Behaviour Seek.
 En OnStateUpdate() actualizamos el destino del agente a la posición del jugador y vamos calculando su distancia respecto al jugador.
+
 Si la distancia es mayor que un Umbral (20 en este caso) el robot pasará al estado Patrol:
 
 ![gif](./GIF/chaseToPatrol.gif)
+
 
 Y si la distancia es menor que un Umbral (10), el robot pasará al estado Attack:
 
