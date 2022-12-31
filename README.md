@@ -35,6 +35,7 @@ En este estado simplemente se cambia la animación a la de ataque (no esta imple
 Si la vida del robot es menor que 4 pasa al estado Hide (El jugador si puede dispararle para bajarle la vida).
 
 -> GIF de ejemplo de Attack:
+
 ![gif](./GIF/attack.gif)
 
 ## Hide: implementa el método "Hide" o "CleverHide" y regenera la vida del NPC. Si la vida está por encima de un valor, pasa al estado "Patrol".
@@ -46,9 +47,11 @@ Mientras se encuentre en Hide, el robot recuperará su vida cada 3 segundos, cua
 Actualizamos todos los estados para que cuando el robot tenga 4 o menos de vida, pase al estado Hide.
 
 -> GIF de ejemplo de Hide:
+
 ![gif](./GIF/hide.gif)
 
 -> Diagrama de los estados Patrol, Chase, Attack y Hide:
+
 ![img](./img/estados.JPG)
 
 
